@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook-simple-login-form</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section class="fb-group">
+        <div class="title">
+            <div class="icon"> <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+
+            <div class="text">Facebook</div>
+        </div>
+        <div class="content">
+            <form action="#">
+                <input type="text" class="input-field" id="Email" placeholder="Mobile number or email">
+                <br>
+                <input type="password" class="input-field" id="password"
+                placeholder="password">
+            
+                <br>
+                <button class="button" type="submit" class="login"> log in</button>
+                
+                <br>
+                <a href="#" class="recover"><h2>Forgot password</h2></a>
+              
+            
+                <p>------------------ or ------------------</p>
+                <button type="button" class="register">Create new account</button>
+                <div class="lang">
+                    <div class="column-1">
+                        <ul>
+                            <li><a href="#">Bangla</a></li>
+                            <li><a href="#">Hindi</a></li>
+                            <li><a href="#">English (UK)</a></li>
+                            <li><a href="#">Bisaya</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="column-2">
+                        <ul>
+                            <li><a href="#">Spanish</a></li><li><a href="#">Portuguese</a></li><li><a href="#">Korean</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+
+    </section>
 </body>
 </html>
